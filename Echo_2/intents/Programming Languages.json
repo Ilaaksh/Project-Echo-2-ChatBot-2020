@@ -1,0 +1,90 @@
+{
+  "id": "41fa5e4c-9312-4d10-aa7f-76e4dcedd7ab",
+  "name": "Programming Languages",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4b31d00d-c937-4ad7-8119-41858d4a091f",
+          "name": "python",
+          "required": false,
+          "dataType": "@languages",
+          "value": "$python",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "We offer to teach Python, Java and C++ under our programming languages. Feel free to contact our head. Don\u0027t forget the feedback! We value your opinions."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "link": "https://api.whatsapp.com/send?phone\u003d917021982771",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/598px-WhatsApp.svg.png"
+                        }
+                      },
+                      "text": "Mohit Vuyyuru"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn1.iconfinder.com/data/icons/business-312/100/business-dashed5-09-512.png"
+                        }
+                      },
+                      "text": "Feedback Form",
+                      "link": "https://istemanipal.com/feedback"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "PL"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

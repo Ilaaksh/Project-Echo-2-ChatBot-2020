@@ -1,0 +1,96 @@
+{
+  "id": "9f41a5a0-ef04-4db3-9bd9-ce767f29020f",
+  "name": "Anything_else",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I didn\u0027t get that. Did you mean any of the following?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "event": {
+                    "name": "summer_school_event",
+                    "parameters": {},
+                    "languageCode": ""
+                  },
+                  "type": "list",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://freepngimg.com/download/sun/23611-7-sun.png"
+                    }
+                  },
+                  "title": "Summer School"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "title": "Winter School",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://icon-library.com/images/snow-flake-icon/snow-flake-icon-28.jpg"
+                    }
+                  },
+                  "event": {
+                    "parameters": {},
+                    "name": "winter_school_event",
+                    "languageCode": ""
+                  },
+                  "type": "list"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "event": {
+                    "parameters": {},
+                    "name": "upcoming_events",
+                    "languageCode": ""
+                  },
+                  "title": "Upcoming Events",
+                  "type": "list",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://cdn.onlinewebfonts.com/svg/img_50873.png"
+                    }
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

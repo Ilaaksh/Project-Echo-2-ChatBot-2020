@@ -1,0 +1,76 @@
+{
+  "id": "24e7171a-9c00-4aee-beb5-de3f38fa19ac",
+  "name": "Web Dev",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For more information regarding Web Development, please feel free to Whatsapp our head. Also, please take your time to provide you feedback. Your feedback is valuable."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/598px-WhatsApp.svg.png"
+                        }
+                      },
+                      "text": "Shubham Pathak",
+                      "link": "https://api.whatsapp.com/send?phone\u003d918130180208"
+                    },
+                    {
+                      "type": "chips",
+                      "text": "Feedback Form",
+                      "link": "https://istemanipal.com/feedback",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn1.iconfinder.com/data/icons/business-312/100/business-dashed5-09-512.png"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WD"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

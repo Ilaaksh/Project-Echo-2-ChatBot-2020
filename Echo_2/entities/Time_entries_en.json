@@ -1,0 +1,20 @@
+[
+  {
+    "value": "winter",
+    "synonyms": [
+      "winter",
+      "wintertime",
+      "december",
+      "January"
+    ]
+  },
+  {
+    "value": "summer",
+    "synonyms": [
+      "summer",
+      "summertime",
+      "may",
+      "june"
+    ]
+  }
+]

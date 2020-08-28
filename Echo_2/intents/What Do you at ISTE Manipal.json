@@ -1,0 +1,130 @@
+{
+  "id": "e3a6e4fe-9bb0-4999-9165-a0dcfbd2fa20",
+  "name": "What Do you at ISTE Manipal",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "ISTE stands for Indian Society for Technical Education. We have a wide range of events in our club."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "event": {
+                    "name": "upcoming_events",
+                    "languageCode": "",
+                    "parameters": {}
+                  },
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://cdn.onlinewebfonts.com/svg/img_50873.png"
+                    }
+                  },
+                  "title": "Upcoming Events",
+                  "type": "list"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "To know more about our club, follow us on our social handles."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://i.pinimg.com/originals/76/00/8b/76008bb9685d410d47fe1fa01dc54f15.jpg"
+                        }
+                      },
+                      "link": "https://instagram.com/istemanipal?igshid\u003dz1dp6jzf1o94",
+                      "text": "Instagram"
+                    },
+                    {
+                      "link": "https://www.linkedin.com/company/iste-manipal",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://image.flaticon.com/icons/svg/174/174857.svg"
+                        }
+                      },
+                      "text": "LinkedIn"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+                        }
+                      },
+                      "text": "Facebook",
+                      "link": "https://www.facebook.com/istemanipal/"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://istemanipal.com/static/img/iste.jpeg"
+                        }
+                      },
+                      "link": "http://blog.istemanipal.com/",
+                      "text": "Our Blog"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WDY"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

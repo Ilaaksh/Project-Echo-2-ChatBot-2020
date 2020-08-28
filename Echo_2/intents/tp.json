@@ -1,0 +1,291 @@
+{
+  "id": "748880de-c4ef-4e5a-8687-26db33ecb34c",
+  "name": "tp",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "quickReplies": {
+                    "title": "Choose",
+                    "quickReplies": [
+                      "summer school",
+                      "winter school"
+                    ]
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "slack": {
+              "attachments": [],
+              "text": "Happy"
+            },
+            "attachment": {
+              "payload": {
+                "quickReplies": {
+                  "title": "slele",
+                  "quickReplies": [
+                    "ya",
+                    "na"
+                  ]
+                }
+              },
+              "type": "Info"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "payload": {
+              "quickReplies": {
+                "quickReplies": [
+                  "ya",
+                  "na"
+                ],
+                "title": "slele"
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "action": {
+              "type": "link",
+              "payload": {
+                "url": "https://www.facebook.com"
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "payload": [
+                {
+                  "replyText": "optional, will be used as acknowledgement message to user in case of requestType JSON. Default value is same as name parameter",
+                  "name": "Pay"
+                }
+              ],
+              "formAction": "https://istemanipal.com"
+            },
+            "message": "click the pay button"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://freepngimg.com/download/sun/23611-7-sun.png"
+                        }
+                      },
+                      "text": "Summer School"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://icon-library.com/images/snow-flake-icon/snow-flake-icon-28.jpg"
+                        }
+                      },
+                      "text": "Winter School"
+                    },
+                    {
+                      "text": "Upcoming Events",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn.onlinewebfonts.com/svg/img_50873.png"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://freepngimg.com/download/sun/23611-7-sun.png"
+                        }
+                      },
+                      "text": "Summer School"
+                    },
+                    {
+                      "text": "Winter School",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://icon-library.com/images/snow-flake-icon/snow-flake-icon-28.jpg"
+                        }
+                      }
+                    },
+                    {
+                      "text": "Upcoming Events",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn.onlinewebfonts.com/svg/img_50873.png"
+                        }
+                      }
+                    }
+                  ],
+                  "type": "quickReplies"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "google": {
+              "richResponse": {
+                "suggestions": [
+                  {
+                    "title": "chips"
+                  }
+                ],
+                "items": [
+                  {
+                    "simpleResponse": {
+                      "textToSpeech": "Hey! Good to see you."
+                    }
+                  },
+                  {
+                    "mediaResponse": {
+                      "mediaObjects": [
+                        {
+                          "contentUrl": "https://freepd.com/Chill/Chill Air.mp3",
+                          "name": "Exercises",
+                          "description": "ex",
+                          "largeImage": {
+                            "url": "http://res.freestockphotos.biz/pictures/17/17903-balloons-pv.jpg",
+                            "accessibilityText": "..."
+                          }
+                        }
+                      ],
+                      "mediaType": "AUDIO"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "accessibilityText": "Dialogflow across platforms",
+                  "rawUrl": "https://istemanipal.com/static/img/iste.jpeg",
+                  "type": "image"
+                },
+                {
+                  "type": "info",
+                  "actionLink": "https://istemanipal.com/",
+                  "title": "ISTE",
+                  "subtitle": "ISTE stands for Indian Society for Technical Education. We predominantly arrange workshops for students alongside conducting summer and winter school with a vast set of courses."
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "🌞Summer School"
+                    },
+                    {
+                      "text": "❄Winter School"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

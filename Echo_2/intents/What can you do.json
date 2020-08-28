@@ -1,0 +1,88 @@
+{
+  "id": "a860cff9-8d71-44d3-8f2e-d9dae363418f",
+  "name": "What can you do",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Whatcanyoudo",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I can help you with the following details. Please select the one you are interested in."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://cdn.onlinewebfonts.com/svg/img_50873.png"
+                    }
+                  },
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "",
+                    "name": "upcoming_events"
+                  },
+                  "title": "Upcoming Events",
+                  "type": "list"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "",
+                    "name": "SM"
+                  },
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://icon2.cleanpng.com/20180219/kcw/kisspng-web-development-logo-world-wide-web-website-clip-a-web-symbol-cliparts-5a8a7f839fbd45.0580330315190260516543.jpg"
+                    }
+                  },
+                  "title": "Social Media Handles",
+                  "type": "list"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "What_can"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

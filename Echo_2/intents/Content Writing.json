@@ -1,0 +1,92 @@
+{
+  "id": "19c08fc4-4f8f-4a13-8141-f6b0f65cfccf",
+  "name": "Content Writing",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You can contact our content writing head and you can also check out latest our blogs and social media handles! Don\u0027t forget the feedback! We value your opinions."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Whatsapp Anupriya",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/598px-WhatsApp.svg.png"
+                        }
+                      },
+                      "link": "https://api.whatsapp.com/send?phone\u003d9570164884"
+                    },
+                    {
+                      "text": "Our Blog",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://istemanipal.com/static/img/iste.jpeg"
+                        }
+                      },
+                      "link": "http://blog.istemanipal.com/"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://icon2.cleanpng.com/20180219/kcw/kisspng-web-development-logo-world-wide-web-website-clip-a-web-symbol-cliparts-5a8a7f839fbd45.0580330315190260516543.jpg"
+                        }
+                      },
+                      "text": "Social Media Handles"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn1.iconfinder.com/data/icons/business-312/100/business-dashed5-09-512.png"
+                        }
+                      },
+                      "link": "https://istemanipal.com/feedback",
+                      "text": "Feedback Form"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "CW"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

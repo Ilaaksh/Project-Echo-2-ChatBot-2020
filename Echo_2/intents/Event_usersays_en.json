@@ -1,0 +1,80 @@
+[
+  {
+    "id": "f4b8d30b-c949-4d63-b054-dd4b47a07663",
+    "data": [
+      {
+        "text": "apply upcoming events",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b2ae475d-5983-4425-8cd9-d947441437da",
+    "data": [
+      {
+        "text": "can join upcoming events",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0378a345-b5a5-4e68-8aea-ac89eb3ac726",
+    "data": [
+      {
+        "text": "any upcoming events",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bb7c4cce-98dc-4be1-b2b9-b64fc8e46f42",
+    "data": [
+      {
+        "text": "interested in upcoming events",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e54a997a-e52d-4616-9d17-b0659df89656",
+    "data": [
+      {
+        "text": "about upcoming events",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "64b83cfc-78b1-4c97-afae-4485a65d8ab6",
+    "data": [
+      {
+        "text": "upcoming events",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

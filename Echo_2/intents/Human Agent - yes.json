@@ -1,0 +1,112 @@
+{
+  "id": "aa39a43b-f836-4c8e-abe5-16c016f4572c",
+  "parentId": "0065e22b-2c5c-423f-98e5-357aff17e6d7",
+  "rootParentId": "0065e22b-2c5c-423f-98e5-357aff17e6d7",
+  "name": "Human Agent - yes",
+  "auto": true,
+  "contexts": [
+    "HumanAgent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "HumanAgent.HumanAgent-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You can contact our PR Hyndavi Mandala for further info"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "link": "https://api.whatsapp.com/send?phone\u003d919611832333",
+                      "text": "Hyndavi Mandala",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/598px-WhatsApp.svg.png"
+                        }
+                      }
+                    },
+                    {
+                      "text": "Mail Us!",
+                      "link": "mailto:istemanipalboard@gmail.com",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://www.freepnglogos.com/uploads/logo-gmail-png/logo-gmail-png-gmail-icon-download-png-and-vector-1.png"
+                        }
+                      }
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please take your time to provide us a feedback. Your opinion is valuable to us"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Feedback Form",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn1.iconfinder.com/data/icons/business-312/100/business-dashed5-09-512.png"
+                        }
+                      },
+                      "link": "https://istemanipal.com/feedback"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

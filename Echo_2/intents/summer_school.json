@@ -1,0 +1,94 @@
+{
+  "id": "ee161034-8ff9-4329-8e8e-0081e4e6bf6b",
+  "name": "summer_school",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "winter_school-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cbec36a4-c4ce-48c8-9b7c-506b0c02637a",
+          "name": "winter",
+          "required": false,
+          "dataType": "@school",
+          "value": "$winter",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What kind of courses are you looking for?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "That\u0027s great. The summer school will be held between May and June. How many courses are you planning to take up?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "1"
+                    },
+                    {
+                      "text": "2"
+                    },
+                    {
+                      "text": "3"
+                    },
+                    {
+                      "text": "4"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "summer_school_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

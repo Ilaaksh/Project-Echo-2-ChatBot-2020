@@ -1,0 +1,205 @@
+[
+  {
+    "id": "bd54fe40-25ea-478d-85af-63b84839468e",
+    "data": [
+      {
+        "text": "apply winter school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d4b0593f-7a5a-4aa5-bb3e-117dd71836e3",
+    "data": [
+      {
+        "text": " want to know about your ",
+        "userDefined": false
+      },
+      {
+        "text": "winter",
+        "meta": "@school",
+        "alias": "winter",
+        "userDefined": false
+      },
+      {
+        "text": " school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b5427fc1-32be-45e3-a991-66d707bd397c",
+    "data": [
+      {
+        "text": "I would like to take up ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " courses in the ",
+        "userDefined": false
+      },
+      {
+        "text": "winter",
+        "meta": "@school",
+        "alias": "winter",
+        "userDefined": false
+      },
+      {
+        "text": " school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3b9f260d-f336-4240-bb3a-f4db103bb374",
+    "data": [
+      {
+        "text": "Interested in the ",
+        "userDefined": false
+      },
+      {
+        "text": "winter",
+        "meta": "@school",
+        "alias": "winter",
+        "userDefined": false
+      },
+      {
+        "text": " school. Wanna know more about it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1b2b2012-a864-4f66-8146-03af34d93f32",
+    "data": [
+      {
+        "text": "happy to join ",
+        "userDefined": false
+      },
+      {
+        "text": "winter",
+        "meta": "@school",
+        "alias": "winter",
+        "userDefined": false
+      },
+      {
+        "text": " school. Tell me more about it?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "444a504d-cc63-48e9-9c7b-b553f276792c",
+    "data": [
+      {
+        "text": "Tell me about your ",
+        "userDefined": false
+      },
+      {
+        "text": "winter",
+        "meta": "@school",
+        "alias": "winter",
+        "userDefined": false
+      },
+      {
+        "text": " school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c016248-1d23-4303-b722-6abb12217c4b",
+    "data": [
+      {
+        "text": "winter",
+        "meta": "@school",
+        "alias": "winter",
+        "userDefined": false
+      },
+      {
+        "text": " school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cdb29c47-9e44-472a-9f7a-1adeab45b291",
+    "data": [
+      {
+        "text": "More than happy to join your ",
+        "userDefined": false
+      },
+      {
+        "text": "winter",
+        "meta": "@school",
+        "alias": "winter",
+        "userDefined": false
+      },
+      {
+        "text": " school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dfb46a13-37ee-4379-8f89-990a4648745d",
+    "data": [
+      {
+        "text": "I am interested in the ",
+        "userDefined": false
+      },
+      {
+        "text": "winter",
+        "meta": "@school",
+        "alias": "winter",
+        "userDefined": false
+      },
+      {
+        "text": " school.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

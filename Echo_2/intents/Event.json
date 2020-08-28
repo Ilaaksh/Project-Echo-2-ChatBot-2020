@@ -1,0 +1,83 @@
+{
+  "id": "c983e447-4ae8-4f95-9bc0-45bc44cd2d7e",
+  "name": "Event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "There are no upcoming events as of now. However, we can provide you some details on summer and winter school."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://freepngimg.com/download/sun/23611-7-sun.png"
+                    }
+                  },
+                  "type": "list",
+                  "event": {
+                    "name": "summer_school_event",
+                    "languageCode": "",
+                    "parameters": {}
+                  },
+                  "title": "Summer School"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "title": "Winter School",
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "",
+                    "name": "winter_school_event"
+                  },
+                  "type": "list",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://icon-library.com/images/snow-flake-icon/snow-flake-icon-28.jpg"
+                    }
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "upcoming_events"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

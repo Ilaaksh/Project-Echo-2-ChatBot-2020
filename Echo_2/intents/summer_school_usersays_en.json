@@ -1,0 +1,126 @@
+[
+  {
+    "id": "2f9052ed-88e2-47f9-b0c5-bef5982cf2fb",
+    "data": [
+      {
+        "text": "like more info on ",
+        "userDefined": false
+      },
+      {
+        "text": "summer",
+        "meta": "@school",
+        "alias": "winter",
+        "userDefined": false
+      },
+      {
+        "text": " school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fe9df1d6-2cb8-4d72-9ce5-09e338be5b30",
+    "data": [
+      {
+        "text": "interested in summer school.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b5427fc1-32be-45e3-a991-66d707bd397c",
+    "data": [
+      {
+        "text": "take up courses in ",
+        "userDefined": false
+      },
+      {
+        "text": "summer",
+        "meta": "@school",
+        "alias": "winter",
+        "userDefined": false
+      },
+      {
+        "text": " school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1b2b2012-a864-4f66-8146-03af34d93f32",
+    "data": [
+      {
+        "text": " join ",
+        "userDefined": false
+      },
+      {
+        "text": "summer",
+        "meta": "@school",
+        "alias": "winter",
+        "userDefined": false
+      },
+      {
+        "text": " school.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "444a504d-cc63-48e9-9c7b-b553f276792c",
+    "data": [
+      {
+        "text": "about ",
+        "userDefined": false
+      },
+      {
+        "text": "summer",
+        "meta": "@school",
+        "alias": "winter",
+        "userDefined": false
+      },
+      {
+        "text": " school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c016248-1d23-4303-b722-6abb12217c4b",
+    "data": [
+      {
+        "text": "summer",
+        "meta": "@school",
+        "alias": "winter",
+        "userDefined": false
+      },
+      {
+        "text": " school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

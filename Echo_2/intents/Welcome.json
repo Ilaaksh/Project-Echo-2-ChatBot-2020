@@ -1,0 +1,120 @@
+{
+  "id": "c8dc7624-f9be-4bd6-a569-5abbd84c3a2f",
+  "name": "Welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hi 👋! My name is Echo from ISTE Manipal. Please select any one of the following:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "About ISTE",
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "",
+                    "name": "WDY"
+                  },
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://istemanipal.com/static/img/iste.jpeg"
+                    }
+                  },
+                  "type": "list"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://toppng.com/uploads/preview/red-question-mark-png-11552242986dielb7cmf4.png"
+                    }
+                  },
+                  "title": "How can I assist",
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "",
+                    "name": "What_can"
+                  },
+                  "type": "list"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://icon2.cleanpng.com/20180219/kcw/kisspng-web-development-logo-world-wide-web-website-clip-a-web-symbol-cliparts-5a8a7f839fbd45.0580330315190260516543.jpg"
+                    }
+                  },
+                  "title": "Social Media Handles",
+                  "type": "list",
+                  "event": {
+                    "languageCode": "",
+                    "parameters": {},
+                    "name": "SM"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "list",
+                  "title": "Human Agent",
+                  "event": {
+                    "languageCode": "",
+                    "name": "HA",
+                    "parameters": {}
+                  },
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg"
+                    }
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

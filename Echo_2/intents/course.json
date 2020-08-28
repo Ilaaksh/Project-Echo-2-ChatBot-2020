@@ -1,0 +1,128 @@
+{
+  "id": "c7e5f15d-3fa0-4987-a9fe-5b4dd0d5b666",
+  "name": "course",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "cc02eb52-7a67-4d42-903d-a97a5076384e",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I am glad that you are interested to take up these many course. We provide the following courses. Please select any one of the below:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "App Development",
+                  "type": "list",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://icon-library.com/images/android-icon-button/android-icon-button-11.jpg"
+                    }
+                  },
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "",
+                    "name": "AppDev"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "list",
+                  "event": {
+                    "name": "WD",
+                    "languageCode": "",
+                    "parameters": {}
+                  },
+                  "title": "Web Development",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn%3AANd9GcQ_5lFisntpyXJSeccu5NN14dQLO8MgK4q3GQ\u0026usqp\u003dCAU"
+                    }
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png"
+                    }
+                  },
+                  "type": "list",
+                  "event": {
+                    "languageCode": "",
+                    "name": "PL",
+                    "parameters": {}
+                  },
+                  "title": "Programming Languages"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "title": "Content writing",
+                  "type": "list",
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "",
+                    "name": "CW"
+                  },
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://i.stack.imgur.com/T018d.png"
+                    }
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,349 @@
+{
+  "id": "d41ae9d3-a6b0-447e-8907-8f5455c75c87",
+  "name": "abc",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "file",
+                "payload": {
+                  "url": "https://istemanipal.com/"
+                }
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Choose one:",
+          "replies": [
+            "Summer school",
+            "Winter school",
+            "Upcoming events"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Choose one:",
+            "I am happy to know this😊"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Winter School",
+                      "event": {
+                        "name": "winter_school_event",
+                        "languageCode": "",
+                        "parameters": {}
+                      }
+                    },
+                    {
+                      "event": {
+                        "languageCode": "",
+                        "name": "summer_school_event",
+                        "parameters": {}
+                      },
+                      "text": "Summer School"
+                    },
+                    {
+                      "event": {
+                        "parameters": {},
+                        "languageCode": "",
+                        "name": "upcoming_events"
+                      },
+                      "text": "Upcoming events"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "info",
+                  "options": [
+                    {
+                      "options": [
+                        {
+                          "text": "1"
+                        },
+                        {
+                          "text": "2"
+                        },
+                        {
+                          "text": "3"
+                        },
+                        {
+                          "text": "4"
+                        }
+                      ],
+                      "type": "chips"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/598px-WhatsApp.svg.png"
+                        }
+                      },
+                      "text": "Whatsapp Shaurya",
+                      "link": "https://api.whatsapp.com/send?phone\u003d918757373564"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/598px-WhatsApp.svg.png"
+                    }
+                  },
+                  "actionLink": "https://api.whatsapp.com/send?phone\u003d918130180208",
+                  "title": "Shubham Pathak",
+                  "type": "info"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "AppDev",
+                      "event": {
+                        "parameters": {},
+                        "name": "AppDev",
+                        "languageCode": ""
+                      }
+                    },
+                    {
+                      "text": "WebDev",
+                      "event": {
+                        "languageCode": "",
+                        "parameters": {},
+                        "name": "WD"
+                      }
+                    },
+                    {
+                      "text": "Content Writing",
+                      "event": {
+                        "languageCode": "",
+                        "name": "CW",
+                        "parameters": {}
+                      }
+                    },
+                    {
+                      "event": {
+                        "name": "PL",
+                        "languageCode": "",
+                        "parameters": {}
+                      },
+                      "text": "Programming Languages"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "In case you were referring to one of our events, here is a list of them"
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "list",
+                  "event": {
+                    "languageCode": "",
+                    "parameters": {},
+                    "name": "summer_school_event"
+                  },
+                  "title": "Summer School"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "title": "Winter School",
+                  "type": "list",
+                  "event": {
+                    "languageCode": "",
+                    "parameters": {},
+                    "name": "winter_school_event"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "1"
+                    },
+                    {
+                      "text": "2"
+                    },
+                    {
+                      "text": "3"
+                    },
+                    {
+                      "text": "4"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn%3AANd9GcQ_5lFisntpyXJSeccu5NN14dQLO8MgK4q3GQ\u0026usqp\u003dCAU"
+                        }
+                      },
+                      "text": "Web Dev"
+                    },
+                    {
+                      "text": "App Dev",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://icon-library.com/images/android-icon-button/android-icon-button-11.jpg"
+                        }
+                      }
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://i.stack.imgur.com/T018d.png"
+                        }
+                      },
+                      "text": "Content Writing"
+                    },
+                    {
+                      "text": "Programming Languages",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

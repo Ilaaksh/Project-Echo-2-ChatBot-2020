@@ -1,0 +1,80 @@
+[
+  {
+    "id": "a85b941c-e29d-47ba-acb8-6b2119857822",
+    "data": [
+      {
+        "text": " how long is winter school conducted?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "46c9d77f-fe88-4d8f-a993-604abe532a03",
+    "data": [
+      {
+        "text": "when is the ",
+        "userDefined": false
+      },
+      {
+        "text": "winter",
+        "meta": "@Time",
+        "alias": "time",
+        "userDefined": false
+      },
+      {
+        "text": " school conducted?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4ba9bca9-1473-4727-a7e9-d404d3a7963b",
+    "data": [
+      {
+        "text": "winter",
+        "meta": "@Time",
+        "alias": "time",
+        "userDefined": false
+      },
+      {
+        "text": " school starts from?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3eb36dcd-ad6a-4499-bcd0-ab5020e93770",
+    "data": [
+      {
+        "text": "When does the ",
+        "userDefined": false
+      },
+      {
+        "text": "winter",
+        "meta": "@Time",
+        "alias": "time",
+        "userDefined": false
+      },
+      {
+        "text": " school start?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "id": "c5bf8980-5100-4a2d-8215-b132273b26cc",
+  "name": "Thank you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Thankyou",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your welcome 😇. Hope you come back soon. Do check out our blog which is filled with some interesting articles."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://i.pinimg.com/originals/76/00/8b/76008bb9685d410d47fe1fa01dc54f15.jpg"
+                        }
+                      },
+                      "text": "Instagram",
+                      "link": "https://instagram.com/istemanipal?igshid\u003dz1dp6jzf1o94"
+                    },
+                    {
+                      "link": "https://www.linkedin.com/company/iste-manipal",
+                      "text": "LinkedIn",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://image.flaticon.com/icons/svg/174/174857.svg"
+                        }
+                      }
+                    },
+                    {
+                      "link": "https://www.facebook.com/istemanipal/",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+                        }
+                      },
+                      "text": "Facebook"
+                    },
+                    {
+                      "link": "http://blog.istemanipal.com/",
+                      "text": "Our Blog",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://istemanipal.com/static/img/iste.jpeg"
+                        }
+                      }
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please take your time to provide us a feedback. Your opinion is valuable to us"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Feedback Form",
+                      "link": "https://istemanipal.com/feedback",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://cdn1.iconfinder.com/data/icons/business-312/100/business-dashed5-09-512.png"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

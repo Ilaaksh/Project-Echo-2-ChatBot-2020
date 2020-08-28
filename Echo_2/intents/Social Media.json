@@ -1,0 +1,90 @@
+{
+  "id": "84132b84-e1db-4613-acae-d4046d7b3b05",
+  "name": "Social Media",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "link": "https://instagram.com/istemanipal?igshid\u003dz1dp6jzf1o94",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://i.pinimg.com/originals/76/00/8b/76008bb9685d410d47fe1fa01dc54f15.jpg"
+                        }
+                      },
+                      "text": "Instagram"
+                    },
+                    {
+                      "link": "https://www.linkedin.com/company/iste-manipal",
+                      "text": "LinkedIn",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://image.flaticon.com/icons/svg/174/174857.svg"
+                        }
+                      }
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+                        }
+                      },
+                      "link": "https://www.facebook.com/istemanipal/",
+                      "text": "Facebook"
+                    },
+                    {
+                      "text": "Our Blog",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://istemanipal.com/static/img/iste.jpeg"
+                        }
+                      },
+                      "link": "http://blog.istemanipal.com/"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "SM"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "226a78c6-b0ef-46da-bccb-f0bf0103f613",
+    "data": [
+      {
+        "text": "contact the PR.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "234546f7-8aa6-41ee-80df-4cbd4158c0cb",
+    "data": [
+      {
+        "text": "contact the HR.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c94b3a8-f9b3-4424-80a6-d0decd7296b1",
+    "data": [
+      {
+        "text": "contact your representative.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e75bf453-a776-4d65-a730-4d3b7bf9a136",
+    "data": [
+      {
+        "text": "through someone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a49da9c5-fa2e-4fc7-bb49-dd8d8edce607",
+    "data": [
+      {
+        "text": "Connect me to someone human",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

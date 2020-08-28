@@ -1,0 +1,94 @@
+[
+  {
+    "id": "16ba9937-b568-47f3-86db-25c12197625c",
+    "data": [
+      {
+        "text": "when is ",
+        "userDefined": false
+      },
+      {
+        "text": "summer",
+        "meta": "@Time",
+        "alias": "time",
+        "userDefined": false
+      },
+      {
+        "text": " school?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "71341e59-87f4-4284-ac99-f6a8b1b1bcbe",
+    "data": [
+      {
+        "text": "long does the ",
+        "userDefined": false
+      },
+      {
+        "text": "summer",
+        "meta": "@Time",
+        "alias": "time",
+        "userDefined": false
+      },
+      {
+        "text": " school last?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f0f197b3-6f99-428e-afb1-c3b154796a24",
+    "data": [
+      {
+        "text": "when ",
+        "userDefined": false
+      },
+      {
+        "text": "summer",
+        "meta": "@Time",
+        "alias": "time",
+        "userDefined": false
+      },
+      {
+        "text": " school start?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a7ea0097-5b96-4a0c-842f-c2f6b8ff5e21",
+    "data": [
+      {
+        "text": " how long does the ",
+        "userDefined": false
+      },
+      {
+        "text": "summer",
+        "meta": "@Time",
+        "alias": "time",
+        "userDefined": false
+      },
+      {
+        "text": " school takes place?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
